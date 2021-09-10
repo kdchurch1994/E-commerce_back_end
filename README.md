@@ -24,7 +24,7 @@
   Kyle Church
   
   ## Link to Video
-  E-commerce Backend
+  E-commerce Backend: https://youtu.be/cvaE3Hy9GwE
 
   ## Licenses
   
