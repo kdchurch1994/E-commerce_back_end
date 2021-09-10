@@ -1,5 +1,5 @@
-const router = require('express').Router();
-const { Product, Category, Tag, ProductTag } = require('../../models');
+const router = require('express').Router(); //Imports the use of the Router function from express
+const { Product, Category, Tag, ProductTag } = require('../../models'); //Imports the use of the Product, Category, Tag, and ProductTag models
 
 // The `/api/products` endpoint
 
@@ -150,4 +150,4 @@ router.delete('/:id', (req, res) => {
     });
 });
 
-module.exports = router;
+module.exports = router; //Exports the use of the routes by Express's router functionality
