@@ -7,9 +7,9 @@ const ProductTag = require('./ProductTag'); //imports the use of the ProductTag 
 // Products belongsTo Category
 Product.belongsTo(Category, {  //Defines the relationship of the Product model to the Category model
   foreignKey: 'category_id', //Imposes the constraint that a product can belong to one category, but not to many categories
-  onDelete: "cascade"  //The link was created using the category_id foreign key
-}); //Automatically deletes the child table when a row in the parent table is deleted. 
-//In this case, when a product is deleted, the products associated with that id are deleted
+  //The link was created using the category_id foreign key
+}); 
+
 
 
 // Categories have many Products
